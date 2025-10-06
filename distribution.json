@@ -1,0 +1,1540 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "1018617208554934332",
+    "smallImageText": "Imperio",
+    "smallImageKey": "seal-circle"
+  },
+  "servers": [
+    {
+      "id": "imperio-1.21.1",
+      "name": "Imperio",
+      "description": "Servidor de Minecraft con NeoForge 21.1.209",
+      "icon": "https://mc.zarpil.dev/icon.png",
+      "version": "1.21.1",
+      "address": "mc.zarpil.dev",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.neoforged:neoforge:21.1.209",
+          "name": "NeoForge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 6953285,
+            "MD5": "2b5a46a350b40b085aa0591e33deb527",
+            "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.209/neoforge-21.1.209-installer.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-corgilib-neoforge:1.0.0",
+          "name": "Corgilib-NeoForge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 310185,
+            "MD5": "939fc51820a34f347149b8c726cf78b7",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/Corgilib-NeoForge-1.21.1-5.0.0.7.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-dragon-mounts-remastered:1.0.0",
+          "name": "Dragon Mounts Remastered",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1308509,
+            "MD5": "841e90a92b82f96a4d30ac487ab2f14a",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/Dragon%20Mounts%20Remastered-1.21.1-1.9.2.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-dungeonsarise:1.0.0",
+          "name": "DungeonsArise",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 10619887,
+            "MD5": "580d3c8f2352ff4920de628dda95669f",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/DungeonsArise-1.21.x-2.1.64-release.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-explorify-v1.6.2-f10-48:1.0.0",
+          "name": "Explorify v1.6.2 f10-48",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 974818,
+            "MD5": "8ae334fc2bab2ea069e3af64f66a5703",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/Explorify%20v1.6.2%20f10-48.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-farmersdelight:1.0.0",
+          "name": "FarmersDelight",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2964387,
+            "MD5": "7c500c9525ee5e872f14ccd1db21ee15",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/FarmersDelight-1.21.1-1.2.9.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-forgeconfigapiport-v21.1.4:1.0.0",
+          "name": "ForgeConfigAPIPort-v21.1.4",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 104575,
+            "MD5": "85d0f7b6ae99bf086a64ac9d227e4794",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/ForgeConfigAPIPort-v21.1.4-1.21.1-NeoForge.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-framedblocks:1.0.0",
+          "name": "FramedBlocks",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 4283886,
+            "MD5": "5a79d984b62fffb14215960f6931b76b",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/FramedBlocks-10.5.0.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-glitchcore-neoforge:1.0.0",
+          "name": "GlitchCore-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 90918,
+            "MD5": "ec491ad844e966641c5a124913c3c1e7",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/GlitchCore-neoforge-1.21.1-2.1.0.0.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-iceandfirece:1.0.0",
+          "name": "IceAndFireCE",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 20959992,
+            "MD5": "8d87f3e881ded399c62115beade67d6e",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/IceAndFireCE-2.0-beta.7-1.21.1-neoforge.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-immersiveengineering:1.0.0",
+          "name": "ImmersiveEngineering",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 14232121,
+            "MD5": "80f8d044f3218a723902fa6955ea3ad1",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-jade:1.0.0",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 725736,
+            "MD5": "4c3891e2160079f270029c004ba3f562",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/Jade-1.21.1-NeoForge-15.10.3.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-jupiter:1.0.0",
+          "name": "Jupiter",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 412697,
+            "MD5": "0b69d6f65a92ea98af132d3a150aabed",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/Jupiter-2.2.2-neoforge.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-mekanism:1.0.0",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 11950588,
+            "MD5": "6f5982b5bfa1e616e729c6982c8f02a6",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/Mekanism-1.21.1-10.7.16.82.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-mekanismgenerators:1.0.0",
+          "name": "MekanismGenerators",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1104554,
+            "MD5": "f6ba91f33bf3adc88b8c99e9a6b058ee",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/MekanismGenerators-1.21.1-10.7.16.82.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-mekanismtools:1.0.0",
+          "name": "MekanismTools",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 520886,
+            "MD5": "373edf8fc20a7ced572b3ab85fdd0e10",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/MekanismTools-1.21.1-10.7.16.82.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-mutantmonsters-v21.1.0:1.0.0",
+          "name": "MutantMonsters-v21.1.0",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1346481,
+            "MD5": "0bf69c03adf258e84dcf8ec73df0f7bd",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/MutantMonsters-v21.1.0-1.21.1-NeoForge.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-oh-the-biomes-weve-gone-neoforge:1.0.0",
+          "name": "Oh-The-Biomes-Weve-Gone-NeoForge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 20761051,
+            "MD5": "219fd2d7f83ef667256cde4d35be3786",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/Oh-The-Biomes-Weve-Gone-NeoForge-2.4.8.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-oh-the-trees-youll-grow-neoforge:1.0.0",
+          "name": "Oh-The-Trees-Youll-Grow-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 125163,
+            "MD5": "6cdb7cb5512fd8d623d8d28d149f4f1d",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.0.14.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-patchouli:1.0.0",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 646486,
+            "MD5": "40ae12e5ea2554ae97ea38e133558e86",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/Patchouli-1.21.1-92-NEOFORGE.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-puzzleslib-v21.1.38:1.0.0",
+          "name": "PuzzlesLib-v21.1.38",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1080651,
+            "MD5": "d151f3476e5c8c5d89566cbcd5aa007a",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/PuzzlesLib-v21.1.38-1.21.1-NeoForge.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-smartbrainlib-neoforge:1.0.0",
+          "name": "SmartBrainLib-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 391053,
+            "MD5": "252a7712a2c5d020d673f276dba280ee",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/SmartBrainLib-neoforge-1.21.1-1.16.11.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-terrablender-neoforge:1.0.0",
+          "name": "TerraBlender-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 120364,
+            "MD5": "9510cef4ca24d7f6bc3144dbf6693f7d",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-the_undergarden:1.0.0",
+          "name": "The_Undergarden",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 45534148,
+            "MD5": "617b119c60be3417f3e74805b366e919",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/The_Undergarden-1.21.1-0.9.3.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-treechop:1.0.0",
+          "name": "TreeChop",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 517750,
+            "MD5": "c87da07af73f649d1fe4ec6ca6d5a3ea",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/TreeChop-1.21.1-neoforge-0.19.3.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-undergroundvillages-neoforge:1.0.0",
+          "name": "UndergroundVillages-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 282058,
+            "MD5": "43c56a2c739cd007dbb2495e58cb99dd",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/UndergroundVillages-neoforge-1.21.1-4.0.3.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-[1.21.1]-securitycraft-v1.10:1.0.0",
+          "name": "[1.21.1] SecurityCraft v1.10",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 4809883,
+            "MD5": "2805b4932396a06929be74b5a62055a7",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/%5B1.21.1%5D%20SecurityCraft%20v1.10.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-accessories-neoforge:1.0.0",
+          "name": "accessories-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1078973,
+            "MD5": "187c6482a2d88dee1a0c7ba2cb7e3afd",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/accessories-neoforge-1.1.0-beta.52%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-appleskin-neoforge-mc1.21:1.0.0",
+          "name": "appleskin-neoforge-mc1.21",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 74100,
+            "MD5": "9b6a8681aa9c871a8816a39d614034c6",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/appleskin-neoforge-mc1.21-3.0.7.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-appliedenergistics2:1.0.0",
+          "name": "appliedenergistics2",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 8230896,
+            "MD5": "1d9768edc90fb50f065949f2628ea991",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/appliedenergistics2-19.2.17.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-architectury:1.0.0",
+          "name": "architectury",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 584004,
+            "MD5": "7a45a948b525c031ca85d221dfdbed85",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/architectury-13.0.8-neoforge.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-artifacts-neoforge:1.0.0",
+          "name": "artifacts-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 978772,
+            "MD5": "6128e0f8a4e5f3d5c08ec0f7ce1e8c37",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/artifacts-neoforge-13.0.7.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-attributefix-neoforge:1.0.0",
+          "name": "attributefix-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 19798,
+            "MD5": "59951f0c51accf352f00577023f0abaf",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/attributefix-neoforge-1.21.1-21.1.2.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-balm-neoforge:1.0.0",
+          "name": "balm-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 580649,
+            "MD5": "134d70782d55331ceee35f5c796bd3fb",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/balm-neoforge-1.21.1-21.0.52.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-blockui:1.0.0",
+          "name": "blockui",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 468281,
+            "MD5": "77e9a0ec4a6b05e946ace10ac4cf82ba",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/blockui-1.0.205-1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-bookshelf-neoforge:1.0.0",
+          "name": "bookshelf-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 340336,
+            "MD5": "b271b7cdc95940b28b0e4de9ea2811dc",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/bookshelf-neoforge-1.21.1-21.1.69.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-butcher:1.0.0",
+          "name": "butcher",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 33507535,
+            "MD5": "e682f472d222deafff0f67e4d38f31fe",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/butcher-3.5.6-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-c2me-neoforge-mc1.21.1:1.0.0",
+          "name": "c2me-neoforge-mc1.21.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 4504022,
+            "MD5": "ea22bb6c649b27167df3afe2d3f6e526",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/c2me-neoforge-mc1.21.1-0.3.0%2Balpha.0.79.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-caelus-neoforge:1.0.0",
+          "name": "caelus-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 50235,
+            "MD5": "d8f9e005af3644cee127d7da1fe2ed79",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/caelus-neoforge-7.0.1%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-carryon-neoforge:1.0.0",
+          "name": "carryon-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 347647,
+            "MD5": "f8438716763fe3865a833f8a9dcceb9e",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/carryon-neoforge-1.21.1-2.2.2.11.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-cloth-config:1.0.0",
+          "name": "cloth-config",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1163890,
+            "MD5": "4c3757160403fcccb8ad468c2ea22862",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/cloth-config-15.0.140-neoforge.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-cosmeticarmorreworked:1.0.0",
+          "name": "cosmeticarmorreworked",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 92722,
+            "MD5": "881eb025d54ca01165c115a38a8d48c4",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/cosmeticarmorreworked-1.21.1-v1-neoforge.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-craftableexperiencebottle:1.0.0",
+          "name": "craftableexperiencebottle",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 5198,
+            "MD5": "abf46a6deae94f50d0e56f897a428a1a",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/craftableexperiencebottle-1.21.1-0.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-create:1.0.0",
+          "name": "create",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 18599196,
+            "MD5": "39db2efac7c0482c2c1bfdbaaab317b3",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/create-1.21.1-6.0.6.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-create-dragons-plus:1.0.0",
+          "name": "create-dragons-plus",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 641127,
+            "MD5": "d9eb68ad935a99288aae8e46c1440294",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/create-dragons-plus-1.8.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-create-enchantment-industry:1.0.0",
+          "name": "create-enchantment-industry",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 677497,
+            "MD5": "b6fc161451ecfcd2915f68e4f4556617",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/create-enchantment-industry-2.2.2b.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-create-stuff-additions1.21.1_v2.1.0e:1.0.0",
+          "name": "create-stuff-additions1.21.1_v2.1.0e",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1318700,
+            "MD5": "979e415b8234dfc3649a49bc35cf263a",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/create-stuff-additions1.21.1_v2.1.0e.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-create_hypertube:1.0.0",
+          "name": "create_hypertube",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 349714,
+            "MD5": "bcff787856359d9a3f070298302369dc",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/create_hypertube-0.2.5-NEOFORGE.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-create_ultimate_factory:1.0.0",
+          "name": "create_ultimate_factory",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 229754,
+            "MD5": "f3e8f75cffe771b862a249832c1b5762",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/create_ultimate_factory-2.1.1-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-createaddition:1.0.0",
+          "name": "createaddition",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1605665,
+            "MD5": "ef8db95d5684a289c6c453209a7d1dd6",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/createaddition-1.5.3.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-createbetterfps:1.0.0",
+          "name": "createbetterfps",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 26171,
+            "MD5": "dfb12a23ceaf443cb0d10b1f578a19f8",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/createbetterfps-1.21.1-1.1.3.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-createpureglass:1.0.0",
+          "name": "createpureglass",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 224740,
+            "MD5": "94f23fc364abeeb06267849ed0c4dbb9",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/createpureglass-1.0.0.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-cupboard:1.0.0",
+          "name": "cupboard",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 23509,
+            "MD5": "9cc5caf701898ba7236ca1e841d9049b",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/cupboard-1.21-2.9.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-curios-neoforge:1.0.0",
+          "name": "curios-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 410690,
+            "MD5": "e8f0a3574264bb202c153b90293dc84c",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/curios-neoforge-9.5.1%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-cyclopscore:1.0.0",
+          "name": "cyclopscore",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1139898,
+            "MD5": "90073fbf374312ed6e6e234eaa380577",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/cyclopscore-1.21.1-neoforge-1.26.2.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-domum-ornamentum:1.0.0",
+          "name": "domum-ornamentum",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1124304,
+            "MD5": "d7b4134e1ee9772811b02f4fbc40f9e7",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/domum-ornamentum-1.0.221-snapshot-main.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-elevatorid-neoforge:1.0.0",
+          "name": "elevatorid-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 191190,
+            "MD5": "19bc20ef8725cd617646e6bc8d8fe13c",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/elevatorid-neoforge-1.21.1-1.11.4.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-elytraslot-neoforge:1.0.0",
+          "name": "elytraslot-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 65086,
+            "MD5": "8d76e8e6b82f5200fed0872fecda435a",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/elytraslot-neoforge-9.0.2%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-endermanoverhaul-neoforge:1.0.0",
+          "name": "endermanoverhaul-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1221011,
+            "MD5": "2d9c0db6388b5e81652f9298299af3c1",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/endermanoverhaul-neoforge-1.21.1-2.0.2.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-evilcraft:1.0.0",
+          "name": "evilcraft",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2795933,
+            "MD5": "40a6af24cbf46ba52f12511e3af7f045",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/evilcraft-1.21.1-neoforge-1.2.78.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-farsight:1.0.0",
+          "name": "farsight",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 438450,
+            "MD5": "df8d68fefe71a3f444f6538bd865dc8b",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/farsight-1.21.1-4.5.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-ferritecore:1.0.0",
+          "name": "ferritecore",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 118911,
+            "MD5": "e176f7b9672b5b36130dc2f46ea96f48",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/ferritecore-7.0.2-neoforge.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-framework-neoforge:1.0.0",
+          "name": "framework-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 312915,
+            "MD5": "78db00ab690cfc759137879ed575073b",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/framework-neoforge-1.21.1-0.9.6.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-geckolib-neoforge:1.0.0",
+          "name": "geckolib-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 621848,
+            "MD5": "872aa036c6173e995ff8b643dd51100c",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/geckolib-neoforge-1.21.1-4.8.2.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-goblintraders-neoforge:1.0.0",
+          "name": "goblintraders-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 462245,
+            "MD5": "ecbad97f19e2fe0782c7af96fbd0eec8",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/goblintraders-neoforge-1.21.1-1.11.2.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-guideme:1.0.0",
+          "name": "guideme",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 9308969,
+            "MD5": "8f42d1015f75066cc56df5c06431cbb5",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/guideme-21.1.14.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-iris-neoforge:1.0.0",
+          "name": "iris-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2438548,
+            "MD5": "6c1122aa7c2b1a4f24831e394c5b513f",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/iris-neoforge-1.8.12%2Bmc1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-jamlib-neoforge:1.0.0",
+          "name": "jamlib-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 188341,
+            "MD5": "8b5d57e55a1dda4492686a36b6e8292e",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/jamlib-neoforge-1.3.5%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-jei:1.0.0",
+          "name": "jei",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1450209,
+            "MD5": "f5bbaf5e7cff7464d71032be534dd0af",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/jei-1.21.1-neoforge-19.21.2.313.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-journeymap-neoforge:1.0.0",
+          "name": "journeymap-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 3537573,
+            "MD5": "003ef128844a419b7ef2788b2525e25b",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/journeymap-neoforge-1.21.1-6.0.0-beta.52.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-justzoom_neoforge_2.1.0_mc_1.21.1:1.0.0",
+          "name": "justzoom_neoforge_2.1.0_MC_1.21.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 43798,
+            "MD5": "3c28fc81aa5a9be514905e6c88e02d6d",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/justzoom_neoforge_2.1.0_MC_1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-konkrete_neoforge_1.9.9_mc_1.21:1.0.0",
+          "name": "konkrete_neoforge_1.9.9_MC_1.21",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 618842,
+            "MD5": "6e77d08299ea1ec7756a299263bc469b",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/konkrete_neoforge_1.9.9_MC_1.21.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-kotlinforforge:1.0.0",
+          "name": "kotlinforforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 6730194,
+            "MD5": "0d0d14c17956ba4a042d47b75e0b6831",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/kotlinforforge-5.10.0-all.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-livingthings-neoforge:1.0.0",
+          "name": "livingthings-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 962953,
+            "MD5": "8abf0832bcc5adcec08295ab86c99a6a",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/livingthings-neoforge-1.21.1-2.3.0.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-lootr-neoforge:1.0.0",
+          "name": "lootr-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 560194,
+            "MD5": "75a486c691b1a56064f1624ac4b20f80",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/lootr-neoforge-1.21-1.10.35.91.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-mahoutsukai:1.0.0",
+          "name": "mahoutsukai",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 5024785,
+            "MD5": "59bedb0809c33dca38468d1bef15178a",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/mahoutsukai-1.21.1-v1.36.6.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-mes:1.0.0",
+          "name": "mes",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1902459,
+            "MD5": "b29a9db572d488dc5faf80a9c1cd34bf",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/mes-1.4.6-1.21.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-minecolonies:1.0.0",
+          "name": "minecolonies",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 71685373,
+            "MD5": "9b043411d5c2d0a179bd824289d76d37",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/minecolonies-1.1.1041-1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-modernfix-neoforge:1.0.0",
+          "name": "modernfix-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 558771,
+            "MD5": "145a0d91d387eae7432097ffcdd7e67e",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/modernfix-neoforge-5.24.3%2Bmc1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-modflared:1.0.0",
+          "name": "modflared",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 72468,
+            "MD5": "57f92abf3708b95c0a0a2b2e60204e0b",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/modflared-1.2.2%2Brelease.81.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-modonomicon:1.0.0",
+          "name": "modonomicon",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2395238,
+            "MD5": "1ccc5bd9c3ab4b348b2930fdd93d2a91",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/modonomicon-1.21.1-neoforge-1.117.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-multipiston:1.0.0",
+          "name": "multipiston",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 33350,
+            "MD5": "fc369fcce084ab5c1844637d9bc27b96",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/multipiston-1.2.57-1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-occultism:1.0.0",
+          "name": "occultism",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 6350492,
+            "MD5": "00d65c21a783a75778293080e5eb26e4",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/occultism-1.21.1-neoforge-1.192.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-owo-lib-neoforge:1.0.0",
+          "name": "owo-lib-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1221583,
+            "MD5": "4c8323c3d0493f7e82a2287e5ca9df7f",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/owo-lib-neoforge-0.12.15.5-beta.1%2B1.21.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-pipez-neoforge:1.0.0",
+          "name": "pipez-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 446672,
+            "MD5": "e9dff852cc21c995588cd1d546e63f72",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/pipez-neoforge-1.21.1-1.2.19.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-platform-neoforge:1.0.0",
+          "name": "platform-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 394248,
+            "MD5": "92995c4948b2af48f73d0995c5155d2b",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/platform-neoforge-1.21.1-1.2.10.2.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-pointblank-neoforge:1.0.0",
+          "name": "pointblank-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 17475163,
+            "MD5": "4f8bcfa95856a9f7d25757c04fc960cb",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/pointblank-neoforge-1.21-1.9.6.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-prickle-neoforge:1.0.0",
+          "name": "prickle-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 84812,
+            "MD5": "533c154fb306cd8043564ee1533873ce",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/prickle-neoforge-1.21.1-21.1.11.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-reeses-sodium-options-neoforge:1.0.0",
+          "name": "reeses-sodium-options-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 78451,
+            "MD5": "f3a0d7f31993d6f34e90f816f82cbcaf",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/reeses-sodium-options-neoforge-1.8.3%2Bmc1.21.4.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-refurbished_furniture-neoforge:1.0.0",
+          "name": "refurbished_furniture-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 7124347,
+            "MD5": "506fbc93d7020704e0d321f7f025e751",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/refurbished_furniture-neoforge-1.21.1-1.0.16.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-resourcefulconfig-neoforge:1.0.0",
+          "name": "resourcefulconfig-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 341009,
+            "MD5": "84ff2805a591b10d22b7e0c69b44246c",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/resourcefulconfig-neoforge-1.21-3.0.11.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-resourcefullib-neoforge:1.0.0",
+          "name": "resourcefullib-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 484332,
+            "MD5": "32da88903167d24bb20febeeb2c79225",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/resourcefullib-neoforge-1.21-3.0.12.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-rightclickharvest-neoforge:1.0.0",
+          "name": "rightclickharvest-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 287439,
+            "MD5": "c3a55cc5c5c645fa281d5f26f83e6ec2",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/rightclickharvest-neoforge-4.6.0%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-rottencreatures-neoforge:1.0.0",
+          "name": "rottencreatures-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2608616,
+            "MD5": "8b07792ba873d523dd49e0b06e0f78ca",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/rottencreatures-neoforge-1.21.1-1.1.2.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-selfexpression:1.0.0",
+          "name": "selfexpression",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 6806565,
+            "MD5": "9923586b05329726c9edbaae53250b8a",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/selfexpression-2.22a-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-selfexpression_slim:1.0.0",
+          "name": "selfexpression_slim",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1305972,
+            "MD5": "0cecadaa9d52800e80bda5d4e5e7a760",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/selfexpression_slim-1.5-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-servercore-neoforge:1.0.0",
+          "name": "servercore-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1391731,
+            "MD5": "817ee89f8a7ef142659189404b346e54",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/servercore-neoforge-1.5.5%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-simplehats-neoforge:1.0.0",
+          "name": "simplehats-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1400084,
+            "MD5": "863d21d5393140dca28c68dda7bc172d",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/simplehats-neoforge-1.21.1-0.4.0.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-simpleplanes:1.0.0",
+          "name": "simpleplanes",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 903381,
+            "MD5": "d8c770671dcf747ec1d1c6de0dd70d15",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/simpleplanes-1.21.1-5.3.6.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-skinrestorer:1.0.0",
+          "name": "skinrestorer",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 187473,
+            "MD5": "55b49ea0562a54ed268b6c516f06ced9",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/skinrestorer-2.4.3%2B1.21-neoforge.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-sodium-neoforge:1.0.0",
+          "name": "sodium-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1162994,
+            "MD5": "e5018c782d851fea76be0205b7616e5d",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/sodium-neoforge-0.6.13%2Bmc1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-sodiumdynamiclights-neoforge:1.0.0",
+          "name": "sodiumdynamiclights-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 299353,
+            "MD5": "daaa3a9e438fddffc1db19bf8a7dfba0",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-sodiumoptionsapi-neoforge:1.0.0",
+          "name": "sodiumoptionsapi-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 309122,
+            "MD5": "1411af8defb5136119d3cf706d3d9cd8",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-sophisticatedbackpacks:1.0.0",
+          "name": "sophisticatedbackpacks",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 973643,
+            "MD5": "18c3fd0116f72f89e1154e33e0c4a403",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/sophisticatedbackpacks-1.21.1-3.25.9.1390.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-sophisticatedcore:1.0.0",
+          "name": "sophisticatedcore",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1480605,
+            "MD5": "18a9e7c24de77e27ed61d4cf4ca0801f",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/sophisticatedcore-1.21.1-1.3.85.1219.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-sophisticatedstorage:1.0.0",
+          "name": "sophisticatedstorage",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1652535,
+            "MD5": "7e034ccdbf5e13c0d540b99e084605c7",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/sophisticatedstorage-1.21.1-1.5.11.1340.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-spark:1.0.0",
+          "name": "spark",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 3642581,
+            "MD5": "a61dd250e618f8fd62fc6b0943831c50",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/spark-1.10.124-neoforge.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-structurize:1.0.0",
+          "name": "structurize",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 1023027,
+            "MD5": "f68c62127b0d246858dd9b727b3d0951",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/structurize-1.0.790-1.21.1-snapshot.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-tombstone-neoforge:1.0.0",
+          "name": "tombstone-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 2304453,
+            "MD5": "d7d65fdeccd616e130a0e7f9d3f4472d",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/tombstone-neoforge-1.21.1-9.4.8.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-toms_storage:1.0.0",
+          "name": "toms_storage",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 839091,
+            "MD5": "8d1a6c0d0a594b531f9a8f2708f284b2",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/toms_storage-1.21-2.2.2.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-towntalk:1.0.0",
+          "name": "towntalk",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 52301863,
+            "MD5": "f9b1214017704f1f6eb0b97521eeeb45",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/towntalk-1.2.0.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-tpa:1.0.0",
+          "name": "tpa",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 35766,
+            "MD5": "6c925612c3d596131483219116fc9ae9",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/tpa-1.7.5.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-twilightforest:1.0.0",
+          "name": "twilightforest",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 26100387,
+            "MD5": "991c640a3ff77c0a579a0cbb95a28735",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/twilightforest-1.21.1-4.7.3196-universal.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-uranus:1.0.0",
+          "name": "uranus",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 847484,
+            "MD5": "ae4bd50b20f0ed672987a0da54fe10e2",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/uranus-2.4-1.21.1-neoforge.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-waystones-neoforge:1.0.0",
+          "name": "waystones-neoforge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 864706,
+            "MD5": "da96029058d64d16075f76f68a5a038b",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/waystones-neoforge-1.21.1-21.1.23.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-worldedit-mod:1.0.0",
+          "name": "worldedit-mod",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 6222854,
+            "MD5": "f5d6f09ca5c4b1958780d01a099b779d",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/worldedit-mod-7.3.8.jar"
+          }
+        },
+        {
+          "id": "imperio:mod-yawp:1.0.0",
+          "name": "yawp",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 661753,
+            "MD5": "9ea2393e95e470efca137cbfa4d7bd5b",
+            "url": "https://mods.zarpil.dev/public.php/dav/files/BEjbRLYRTnrMfWY/yawp-1.21.1-neoforge-0.6.0-beta1.jar"
+          }
+        }
+      ]
+    }
+  ]
+}
